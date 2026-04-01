@@ -1,0 +1,13 @@
+{
+  "name": "auto-memory",
+  "version": "0.1.0",
+  "description": "Auto-capture and promote lessons learned across Claude Code sessions",
+  "keywords": [
+    "claude-code",
+    "memory",
+    "lessons",
+    "auto-memory"
+  ],
+  "author": "wangzichen",
+  "license": "MIT"
+}

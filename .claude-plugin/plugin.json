@@ -1,0 +1,17 @@
+{
+  "name": "auto-memory",
+  "description": "Automatically captures lessons learned from Claude Code sessions and helps promote them into CLAUDE.md rules",
+  "version": "0.1.0",
+  "author": {
+    "name": "baiyu",
+    "url": "https://github.com/baiyu087"
+  },
+  "skills": [
+    "./skills/promote-lessons/SKILL.md"
+  ],
+  "hooks": "./hooks/hooks.json",
+  "homepage": "https://github.com/baiyu087/auto-memory",
+  "repository": "https://github.com/baiyu087/auto-memory",
+  "license": "MIT",
+  "keywords": ["memory", "lessons", "auto-memory", "claude-code", "rules"]
+}

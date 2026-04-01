@@ -1,0 +1,20 @@
+{
+  "name": "auto-memory",
+  "owner": {
+    "name": "baiyu",
+    "email": ""
+  },
+  "metadata": {
+    "description": "Automatically captures lessons learned from Claude Code sessions and helps promote them into CLAUDE.md rules",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "auto-memory",
+      "source": "./",
+      "description": "Auto-capture lessons from sessions, inject them on startup, and promote important rules to CLAUDE.md with /promote-lessons",
+      "category": "productivity",
+      "tags": ["memory", "lessons", "rules", "auto-memory", "claude-code"]
+    }
+  ]
+}

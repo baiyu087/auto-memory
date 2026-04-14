@@ -70,10 +70,10 @@ def find_python() -> str:
 
 
 def analyze_with_mc(prompt: str) -> str:
-    """调用 mc --code 分析对话，通过 stdin 传入避免 shell glob 展开问题"""
+    """调用 claude 分析对话，通过 stdin 传入避免 shell glob 展开问题"""
     try:
         result = subprocess.run(
-            ["mc", "--code", "-p", "--input-format", "text"],
+            ["claude", "-p", "--input-format", "text"],
             input=prompt,
             capture_output=True,
             text=True,
